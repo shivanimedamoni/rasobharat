@@ -1,0 +1,37 @@
+# Ignore Python cache files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Ignore virtual environment folders
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore environment and secret files
+.secrets/
+secrets.toml
+*.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build / distribution folders
+build/
+dist/
+*.egg-info/
+
+# Ignore logs
+*.log
