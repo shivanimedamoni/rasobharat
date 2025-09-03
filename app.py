@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 🔑 API Key
-genai.configure(api_key=st.secrets["gemini"]["api_key"])
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Page Config
 st.set_page_config(page_title="అమ్మ చేతి వంట", page_icon="🍲", layout="wide")
