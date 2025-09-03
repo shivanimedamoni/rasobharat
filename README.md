@@ -6,7 +6,7 @@ It helps users generate recipes in Telugu based on the available ingredients.
 ---
 
 ## 🚀 Live Demo  
-🔗 [Click here to try Rasobharat](https://a3azbek2hajlvsofxcdpsd.streamlit.app)
+🔗 [Click here to try Rasobharat]https://a3zabek2hajlvsofxcdpsd.streamlit.app/
 
 ---
 
