@@ -35,3 +35,6 @@ dist/
 
 # Ignore logs
 *.log
+
+pyproject.toml
+uv.lock
