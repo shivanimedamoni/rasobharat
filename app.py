@@ -118,7 +118,7 @@ if st.button("🍛 రుచికరమైన వంటకం తయారు �
         దయచేసి ఒక సులభమైన తెలుగు రెసిపీ ఇవ్వండి.
         """
         try:
-            model=genai.GenerativeModel("gemini-1.5-flash")
+            model=genai.GenerativeModel("gemini-1.5-flash-latest")
             response = model.generate_content(prompt)
                 
             
