@@ -118,12 +118,11 @@ if st.button("🍛 రుచికరమైన వంటకం తయారు �
         దయచేసి ఒక సులభమైన తెలుగు రెసిపీ ఇవ్వండి.
         """
         try:
-            model=genai.GenerativeModel("gemini-1.5-flash-latest")
+            model = genai.GenerativeModel("gemini-2.5-pro")
             response = model.generate_content(prompt)
-                
-            
             recipe = response.text
             st.success("🥗 మీ రెసిపీ సిద్ధం అయ్యింది!")
             st.write(recipe)
         except Exception as e:
-            st.error(f"Error: {e}")
+            st.error(f"Error: {e}")
+    
