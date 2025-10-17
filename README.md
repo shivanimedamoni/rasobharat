@@ -23,7 +23,7 @@ Deployment: streamlitcloud
 
 Clone the repo:
 
-git clone https://code.swecha.org/shivanimedamoni/rasabharat.git
+git clone https://github.com/shivanimedamoni/rasobharat
 cd rasabharat
 
 create and  activate virtual environment
@@ -47,13 +47,7 @@ rasobharat/
 │── requirements.txt
 │── README.md
 │── REPORT.md
-│── CONTRIBUTING.md
-│── CHANGELOG.md
-│── LICENSE
 │── .gitignore
 
-📜 License
-
-This project is licensed under the MIT License.
 
 
